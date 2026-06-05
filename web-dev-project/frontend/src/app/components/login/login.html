@@ -1,0 +1,33 @@
+<div class="login-wrapper">
+  <div class="login-box">
+    <h1>mathWay</h1>
+    <h2>{{ isRegisterMode ? 'Create Account' : 'Sign In' }}</h2>
+    <p class="hint">
+      Локально после <code>seed_mathway</code>: вход <strong>admin</strong> / <strong>admin</strong>
+      или регистрация ниже.
+    </p>
+
+    @if (errorMessage) {
+      <p class="error">{{ errorMessage }}</p>
+    }
+
+    <input type="text" placeholder="Username" [(ngModel)]="username" />
+
+    @if (isRegisterMode) {
+      <input type="email" placeholder="Email" [(ngModel)]="email" />
+    }
+
+    <input type="password" placeholder="Password" [(ngModel)]="password" />
+
+    @if (isRegisterMode) {
+      <button (click)="register()">Register</button>
+    } @else {
+      <button (click)="login()">Login</button>
+    }
+
+    <p class="toggle-text">
+      {{ isRegisterMode ? 'Already have an account?' : "Don't have an account?" }}
+      <span (click)="toggleMode()">{{ isRegisterMode ? 'Sign In' : 'Register' }}</span>
+    </p>
+  </div>
+</div>
