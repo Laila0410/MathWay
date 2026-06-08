@@ -1,7 +1,0 @@
-{
-  "buildCommand": "npm install && npm install -g @angular/cli && ng build",
-  "outputDirectory": "dist/frontend/browser",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
