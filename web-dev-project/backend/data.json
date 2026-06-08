@@ -1,0 +1,2629 @@
+﻿[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$nzf6ZMN8WSnCOD4b0iFp4B$vUqNJX6DKSldkNh8Q3MG5flvkI9SZ7r1RUPMpUwXPoQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test2",
+    "first_name": "",
+    "last_name": "",
+    "email": "leylataubay@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T14:04:26.218Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$sccntqvQ24UJzXczFNptKC$uPs7si/ksMehVc+X4EHHaYA3i9zG4T91Dp5ALRiEqZk=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "huawei",
+    "first_name": "",
+    "last_name": "",
+    "email": "leylataubay@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-08T14:13:48.028Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$tcoNn7IqPtTMvEZc6jFWdx$96tMRSfer82ru9Ks5KYo3OVEZWId/fhaELXj4hTeiPw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Laila",
+    "first_name": "",
+    "last_name": "",
+    "email": "leylataubay@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T14:14:42.329Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$gb7bjwUaD33nXwoL9zMOQt$bdACBVSt5d/eZWJWuIfbCVl56zRL7YApC4Er2MxFwS4=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-08T14:21:27.262Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "test2"
+    ],
+    "points": 3
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "huawei"
+    ],
+    "points": 0
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "Laila"
+    ],
+    "points": 0
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "points": 0
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 1,
+  "fields": {
+    "title": "GCD and LCM Made Easy",
+    "youtube_id": "MRjeHY4jp6Q"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 2,
+  "fields": {
+    "title": "Addition and subtraction of rational numbers",
+    "youtube_id": "v_lxItUWgbc"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 3,
+  "fields": {
+    "title": "multiplication and division of rational numbers.",
+    "youtube_id": "nYe--f94k7A"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 4,
+  "fields": {
+    "title": "Applying operations to simple fractions.",
+    "youtube_id": "olN97lKhMAE"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 5,
+  "fields": {
+    "title": "Applying operations to periodic fractions",
+    "youtube_id": "3bpV1WxvjJQ"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 6,
+  "fields": {
+    "title": "monomial and its standard form",
+    "youtube_id": "SUCM4r0UB0U"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 7,
+  "fields": {
+    "title": "Factorization of a polynomial, that is, taking the common factor outside the brackets.",
+    "youtube_id": "jCFlPSNwWT0"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 8,
+  "fields": {
+    "title": "Short multiplication formulas.",
+    "youtube_id": "1WNbLvO9rks"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 9,
+  "fields": {
+    "title": "Multiplication, division and powers of rational expressions",
+    "youtube_id": "XPwRfz1Pz0s"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 10,
+  "fields": {
+    "title": "Addition and Subtraction of Rational Expressions",
+    "youtube_id": "f1VeZaY5i_E"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 11,
+  "fields": {
+    "title": "Applying operations to expressions with integer and rational exponents.",
+    "youtube_id": "UPxR5Ye6pMw"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 12,
+  "fields": {
+    "title": "Rational exponent degree",
+    "youtube_id": "0nvYAoIvpbc"
+  }
+},
+{
+  "model": "lectures.video",
+  "pk": 13,
+  "fields": {
+    "title": "Applying operations to arithmetic roots",
+    "youtube_id": "ih2stfiLhpw"
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 1,
+  "fields": {
+    "video": 1,
+    "title": "Quiz: GCD and LCM Made Easy"
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 2,
+  "fields": {
+    "video": 2,
+    "title": "Quiz: Addition and subtraction of rational numbers"
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 3,
+  "fields": {
+    "video": 3,
+    "title": "Quiz: multiplication and division of rational numbers."
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 4,
+  "fields": {
+    "video": 4,
+    "title": "Quiz: Applying operations to simple fractions."
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 5,
+  "fields": {
+    "video": 5,
+    "title": "Quiz: Applying operations to periodic fractions"
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 6,
+  "fields": {
+    "video": 6,
+    "title": "Quiz: monomial and its standard form"
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 7,
+  "fields": {
+    "video": 7,
+    "title": "Quiz: Factorization of a polynomial, that is, taking the common factor outside the brackets."
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 8,
+  "fields": {
+    "video": 8,
+    "title": "Quiz: Short multiplication formulas."
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 9,
+  "fields": {
+    "video": 9,
+    "title": "Quiz: Multiplication, division and powers of rational expressions"
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 10,
+  "fields": {
+    "video": 10,
+    "title": "Quiz: Addition and Subtraction of Rational Expressions"
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 11,
+  "fields": {
+    "video": 11,
+    "title": "Quiz: Applying operations to expressions with integer and rational exponents."
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 12,
+  "fields": {
+    "video": 12,
+    "title": "Quiz: Rational exponent degree"
+  }
+},
+{
+  "model": "lectures.quiz",
+  "pk": 13,
+  "fields": {
+    "video": 13,
+    "title": "Quiz: Applying operations to arithmetic roots"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 1,
+  "fields": {
+    "quiz": 1,
+    "text": "What is the GCD of 12 and 18?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 2,
+  "fields": {
+    "quiz": 1,
+    "text": "What is the LCM of 4 and 6?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 3,
+  "fields": {
+    "quiz": 1,
+    "text": "Which statement is true about GCD?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 4,
+  "fields": {
+    "quiz": 1,
+    "text": "What is the LCM of 5 and 7?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 5,
+  "fields": {
+    "quiz": 1,
+    "text": "If GCD(a, b) = 1, what can we say about a and b?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 6,
+  "fields": {
+    "quiz": 2,
+    "text": "What is 1/2 + 1/3?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 7,
+  "fields": {
+    "quiz": 2,
+    "text": "What is 5/6 - 1/2?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 8,
+  "fields": {
+    "quiz": 2,
+    "text": "What is -3/4 + 1/4?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 9,
+  "fields": {
+    "quiz": 2,
+    "text": "What is 7/8 - 3/8?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 10,
+  "fields": {
+    "quiz": 2,
+    "text": "What is 2/3 + (-1/6)?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 11,
+  "fields": {
+    "quiz": 3,
+    "text": "What is 2/3 ├Ч 3/4?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 12,
+  "fields": {
+    "quiz": 3,
+    "text": "What is 5/6 ├╖ 2/3?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 13,
+  "fields": {
+    "quiz": 3,
+    "text": "What is -2/5 ├Ч 3/7?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 14,
+  "fields": {
+    "quiz": 3,
+    "text": "What is 4/9 ├╖ 2/3?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 15,
+  "fields": {
+    "quiz": 3,
+    "text": "What is 7/8 ├Ч (-2/3)?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 16,
+  "fields": {
+    "quiz": 4,
+    "text": "What is 1/2 + 1/4 ├Ч 2?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 17,
+  "fields": {
+    "quiz": 4,
+    "text": "What is (3/5 - 1/5) ├Ч 2?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 18,
+  "fields": {
+    "quiz": 4,
+    "text": "What is 3/4 ├╖ 1/2 + 1/4?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 19,
+  "fields": {
+    "quiz": 4,
+    "text": "What is (2/3 + 1/3) ├╖ 2?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 20,
+  "fields": {
+    "quiz": 4,
+    "text": "What is 5/6 - 1/3 ├Ч 3?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 21,
+  "fields": {
+    "quiz": 5,
+    "text": "Convert 0.(3) to a fraction and add 1/3. What is the result?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 22,
+  "fields": {
+    "quiz": 5,
+    "text": "Convert 0.(6) to a fraction and subtract 1/2. What is the result?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 23,
+  "fields": {
+    "quiz": 5,
+    "text": "What is 0.(3) ├Ч 3?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 24,
+  "fields": {
+    "quiz": 5,
+    "text": "Convert 0.(27) to a fraction and divide by 3. What is the result?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 25,
+  "fields": {
+    "quiz": 5,
+    "text": "What is 0.(9) - 1?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 26,
+  "fields": {
+    "quiz": 6,
+    "text": "Which of the following is a monomial?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 27,
+  "fields": {
+    "quiz": 6,
+    "text": "What is the standard form of the monomial 2y ├Ч 3x?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 28,
+  "fields": {
+    "quiz": 6,
+    "text": "What is the coefficient in the monomial 7a^3b?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 29,
+  "fields": {
+    "quiz": 6,
+    "text": "Which expression is in standard form?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 30,
+  "fields": {
+    "quiz": 6,
+    "text": "What is the degree of the monomial 5x^2y^3?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 31,
+  "fields": {
+    "quiz": 7,
+    "text": "Factorize: 6x + 12"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 32,
+  "fields": {
+    "quiz": 7,
+    "text": "Factorize: 8y - 4"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 33,
+  "fields": {
+    "quiz": 7,
+    "text": "Factorize: 9a^2 + 3a"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 34,
+  "fields": {
+    "quiz": 7,
+    "text": "Factorize: 5x^2y + 10xy"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 35,
+  "fields": {
+    "quiz": 7,
+    "text": "Factorize: 7m^3 - 14m^2"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 36,
+  "fields": {
+    "quiz": 8,
+    "text": "Expand using a short multiplication formula: (a + b)^2"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 37,
+  "fields": {
+    "quiz": 8,
+    "text": "Expand: (x - y)^2"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 38,
+  "fields": {
+    "quiz": 8,
+    "text": "Factorize using a formula: a^2 - b^2"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 39,
+  "fields": {
+    "quiz": 8,
+    "text": "Expand: (2a + 3)^2"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 40,
+  "fields": {
+    "quiz": 8,
+    "text": "Expand: (x + 2)(x - 2)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 41,
+  "fields": {
+    "quiz": 9,
+    "text": "Simplify: (2x/3) ├Ч (3/4x)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 42,
+  "fields": {
+    "quiz": 9,
+    "text": "Simplify: (x^2/5) ├╖ (x/10)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 43,
+  "fields": {
+    "quiz": 9,
+    "text": "Simplify: (3a/4)^2"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 44,
+  "fields": {
+    "quiz": 9,
+    "text": "Simplify: (5y/2) ├Ч (4/y)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 45,
+  "fields": {
+    "quiz": 9,
+    "text": "Simplify: (x^3/2) ├╖ (x/4)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 46,
+  "fields": {
+    "quiz": 10,
+    "text": "Simplify: 1/x + 1/x"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 47,
+  "fields": {
+    "quiz": 10,
+    "text": "Simplify: 1/x - 1/x"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 48,
+  "fields": {
+    "quiz": 10,
+    "text": "Simplify: 2/x + 3/x"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 49,
+  "fields": {
+    "quiz": 10,
+    "text": "Simplify: 3/y - 1/y"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 50,
+  "fields": {
+    "quiz": 10,
+    "text": "Simplify: 1/x + 1/y (common denominator xy)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 51,
+  "fields": {
+    "quiz": 11,
+    "text": "Simplify: x^2 ├Ч x^3"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 52,
+  "fields": {
+    "quiz": 11,
+    "text": "Simplify: (x^6 ├╖ x^2)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 53,
+  "fields": {
+    "quiz": 11,
+    "text": "Simplify: (x^2)^3"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 54,
+  "fields": {
+    "quiz": 11,
+    "text": "Simplify: x^(1/2) ├Ч x^(1/2)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 55,
+  "fields": {
+    "quiz": 11,
+    "text": "Simplify: x^(3/2) ├╖ x^(1/2)"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 56,
+  "fields": {
+    "quiz": 12,
+    "text": "What is the degree of x^(3/2)?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 57,
+  "fields": {
+    "quiz": 12,
+    "text": "What is the degree of x^(1/2) y^(3/2)?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 58,
+  "fields": {
+    "quiz": 12,
+    "text": "What is the degree of (x^2)^(1/3)?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 59,
+  "fields": {
+    "quiz": 12,
+    "text": "What is the degree of x^(1/4) y^(1/4)?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 60,
+  "fields": {
+    "quiz": 12,
+    "text": "What is the degree of 5x^(2/3) y^(1/3)?"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 61,
+  "fields": {
+    "quiz": 13,
+    "text": "Simplify: тИЪ2 ├Ч тИЪ8"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 62,
+  "fields": {
+    "quiz": 13,
+    "text": "Simplify: тИЪ18 ├╖ тИЪ2"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 63,
+  "fields": {
+    "quiz": 13,
+    "text": "Simplify: тИЪ5 + тИЪ5"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 64,
+  "fields": {
+    "quiz": 13,
+    "text": "Simplify: тИЪ12 - тИЪ3"
+  }
+},
+{
+  "model": "lectures.question",
+  "pk": 65,
+  "fields": {
+    "quiz": 13,
+    "text": "Simplify: (тИЪ3)^2 ├Ч тИЪ3"
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 1,
+  "fields": {
+    "question": 1,
+    "text": "6",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 2,
+  "fields": {
+    "question": 1,
+    "text": "3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 3,
+  "fields": {
+    "question": 1,
+    "text": "12",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 4,
+  "fields": {
+    "question": 2,
+    "text": "12",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 5,
+  "fields": {
+    "question": 2,
+    "text": "24",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 6,
+  "fields": {
+    "question": 2,
+    "text": "6",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 7,
+  "fields": {
+    "question": 3,
+    "text": "It is the largest number that divides both numbers",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 8,
+  "fields": {
+    "question": 3,
+    "text": "It is the smallest multiple of both numbers",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 9,
+  "fields": {
+    "question": 3,
+    "text": "It is always equal to one of the numbers",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 10,
+  "fields": {
+    "question": 4,
+    "text": "35",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 11,
+  "fields": {
+    "question": 4,
+    "text": "12",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 12,
+  "fields": {
+    "question": 4,
+    "text": "7",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 13,
+  "fields": {
+    "question": 5,
+    "text": "They are coprime",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 14,
+  "fields": {
+    "question": 5,
+    "text": "They are equal",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 15,
+  "fields": {
+    "question": 5,
+    "text": "They are both prime numbers",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 16,
+  "fields": {
+    "question": 6,
+    "text": "5/6",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 17,
+  "fields": {
+    "question": 6,
+    "text": "2/5",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 18,
+  "fields": {
+    "question": 6,
+    "text": "3/6",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 19,
+  "fields": {
+    "question": 7,
+    "text": "1/3",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 20,
+  "fields": {
+    "question": 7,
+    "text": "4/6",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 21,
+  "fields": {
+    "question": 7,
+    "text": "2/3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 22,
+  "fields": {
+    "question": 8,
+    "text": "-1/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 23,
+  "fields": {
+    "question": 8,
+    "text": "-2/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 24,
+  "fields": {
+    "question": 8,
+    "text": "1/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 25,
+  "fields": {
+    "question": 9,
+    "text": "1/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 26,
+  "fields": {
+    "question": 9,
+    "text": "4/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 27,
+  "fields": {
+    "question": 9,
+    "text": "3/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 28,
+  "fields": {
+    "question": 10,
+    "text": "1/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 29,
+  "fields": {
+    "question": 10,
+    "text": "3/6",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 30,
+  "fields": {
+    "question": 10,
+    "text": "1/6",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 31,
+  "fields": {
+    "question": 11,
+    "text": "1/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 32,
+  "fields": {
+    "question": 11,
+    "text": "6/12",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 33,
+  "fields": {
+    "question": 11,
+    "text": "5/7",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 34,
+  "fields": {
+    "question": 12,
+    "text": "5/4",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 35,
+  "fields": {
+    "question": 12,
+    "text": "10/18",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 36,
+  "fields": {
+    "question": 12,
+    "text": "3/5",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 37,
+  "fields": {
+    "question": 13,
+    "text": "-6/35",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 38,
+  "fields": {
+    "question": 13,
+    "text": "6/35",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 39,
+  "fields": {
+    "question": 13,
+    "text": "-5/14",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 40,
+  "fields": {
+    "question": 14,
+    "text": "2/3",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 41,
+  "fields": {
+    "question": 14,
+    "text": "8/27",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 42,
+  "fields": {
+    "question": 14,
+    "text": "6/9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 43,
+  "fields": {
+    "question": 15,
+    "text": "-7/12",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 44,
+  "fields": {
+    "question": 15,
+    "text": "14/24",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 45,
+  "fields": {
+    "question": 15,
+    "text": "7/12",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 46,
+  "fields": {
+    "question": 16,
+    "text": "1",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 47,
+  "fields": {
+    "question": 16,
+    "text": "3/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 48,
+  "fields": {
+    "question": 16,
+    "text": "1/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 49,
+  "fields": {
+    "question": 17,
+    "text": "4/5",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 50,
+  "fields": {
+    "question": 17,
+    "text": "2/5",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 51,
+  "fields": {
+    "question": 17,
+    "text": "6/5",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 52,
+  "fields": {
+    "question": 18,
+    "text": "7/4",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 53,
+  "fields": {
+    "question": 18,
+    "text": "3/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 54,
+  "fields": {
+    "question": 18,
+    "text": "5/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 55,
+  "fields": {
+    "question": 19,
+    "text": "1/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 56,
+  "fields": {
+    "question": 19,
+    "text": "1",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 57,
+  "fields": {
+    "question": 19,
+    "text": "2/3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 58,
+  "fields": {
+    "question": 20,
+    "text": "-1/6",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 59,
+  "fields": {
+    "question": 20,
+    "text": "1/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 60,
+  "fields": {
+    "question": 20,
+    "text": "2/3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 61,
+  "fields": {
+    "question": 21,
+    "text": "2/3",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 62,
+  "fields": {
+    "question": 21,
+    "text": "1/3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 63,
+  "fields": {
+    "question": 21,
+    "text": "1",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 64,
+  "fields": {
+    "question": 22,
+    "text": "1/6",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 65,
+  "fields": {
+    "question": 22,
+    "text": "1/3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 66,
+  "fields": {
+    "question": 22,
+    "text": "1/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 67,
+  "fields": {
+    "question": 23,
+    "text": "1",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 68,
+  "fields": {
+    "question": 23,
+    "text": "0.(9)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 69,
+  "fields": {
+    "question": 23,
+    "text": "3/10",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 70,
+  "fields": {
+    "question": 24,
+    "text": "1/11",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 71,
+  "fields": {
+    "question": 24,
+    "text": "3/11",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 72,
+  "fields": {
+    "question": 24,
+    "text": "2/9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 73,
+  "fields": {
+    "question": 25,
+    "text": "0",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 74,
+  "fields": {
+    "question": 25,
+    "text": "-1/9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 75,
+  "fields": {
+    "question": 25,
+    "text": "1/9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 76,
+  "fields": {
+    "question": 26,
+    "text": "3x^2y",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 77,
+  "fields": {
+    "question": 26,
+    "text": "x + 2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 78,
+  "fields": {
+    "question": 26,
+    "text": "x^2 - y",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 79,
+  "fields": {
+    "question": 27,
+    "text": "6xy",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 80,
+  "fields": {
+    "question": 27,
+    "text": "5xy",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 81,
+  "fields": {
+    "question": 27,
+    "text": "6yx^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 82,
+  "fields": {
+    "question": 28,
+    "text": "7",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 83,
+  "fields": {
+    "question": 28,
+    "text": "a^3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 84,
+  "fields": {
+    "question": 28,
+    "text": "b",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 85,
+  "fields": {
+    "question": 29,
+    "text": "4x^2y",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 86,
+  "fields": {
+    "question": 29,
+    "text": "y ├Ч 4x^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 87,
+  "fields": {
+    "question": 29,
+    "text": "x ├Ч y ├Ч 4x",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 88,
+  "fields": {
+    "question": 30,
+    "text": "5",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 89,
+  "fields": {
+    "question": 30,
+    "text": "6",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 90,
+  "fields": {
+    "question": 30,
+    "text": "3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 91,
+  "fields": {
+    "question": 31,
+    "text": "6(x + 2)",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 92,
+  "fields": {
+    "question": 31,
+    "text": "3(2x + 4)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 93,
+  "fields": {
+    "question": 31,
+    "text": "2(3x + 6)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 94,
+  "fields": {
+    "question": 32,
+    "text": "4(2y - 1)",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 95,
+  "fields": {
+    "question": 32,
+    "text": "2(4y - 2)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 96,
+  "fields": {
+    "question": 32,
+    "text": "4(y - 1)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 97,
+  "fields": {
+    "question": 33,
+    "text": "3a(3a + 1)",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 98,
+  "fields": {
+    "question": 33,
+    "text": "3(3a^2 + a)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 99,
+  "fields": {
+    "question": 33,
+    "text": "a(9a + 3)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 100,
+  "fields": {
+    "question": 34,
+    "text": "5xy(x + 2)",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 101,
+  "fields": {
+    "question": 34,
+    "text": "5x(xy + 2y)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 102,
+  "fields": {
+    "question": 34,
+    "text": "10xy(x + 1)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 103,
+  "fields": {
+    "question": 35,
+    "text": "7m^2(m - 2)",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 104,
+  "fields": {
+    "question": 35,
+    "text": "7m(m^2 - 2m)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 105,
+  "fields": {
+    "question": 35,
+    "text": "14m^2(m - 1)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 106,
+  "fields": {
+    "question": 36,
+    "text": "a^2 + 2ab + b^2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 107,
+  "fields": {
+    "question": 36,
+    "text": "a^2 + b^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 108,
+  "fields": {
+    "question": 36,
+    "text": "a^2 - 2ab + b^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 109,
+  "fields": {
+    "question": 37,
+    "text": "x^2 - 2xy + y^2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 110,
+  "fields": {
+    "question": 37,
+    "text": "x^2 + 2xy + y^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 111,
+  "fields": {
+    "question": 37,
+    "text": "x^2 - y^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 112,
+  "fields": {
+    "question": 38,
+    "text": "(a - b)(a + b)",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 113,
+  "fields": {
+    "question": 38,
+    "text": "(a - b)^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 114,
+  "fields": {
+    "question": 38,
+    "text": "(a + b)^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 115,
+  "fields": {
+    "question": 39,
+    "text": "4a^2 + 12a + 9",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 116,
+  "fields": {
+    "question": 39,
+    "text": "4a^2 + 9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 117,
+  "fields": {
+    "question": 39,
+    "text": "2a^2 + 6a + 9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 118,
+  "fields": {
+    "question": 40,
+    "text": "x^2 - 4",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 119,
+  "fields": {
+    "question": 40,
+    "text": "x^2 + 4",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 120,
+  "fields": {
+    "question": 40,
+    "text": "x^2 - 2x + 4",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 121,
+  "fields": {
+    "question": 41,
+    "text": "1/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 122,
+  "fields": {
+    "question": 41,
+    "text": "6x/12x",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 123,
+  "fields": {
+    "question": 41,
+    "text": "x/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 124,
+  "fields": {
+    "question": 42,
+    "text": "2x",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 125,
+  "fields": {
+    "question": 42,
+    "text": "x/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 126,
+  "fields": {
+    "question": 42,
+    "text": "x^2/50",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 127,
+  "fields": {
+    "question": 43,
+    "text": "9a^2/16",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 128,
+  "fields": {
+    "question": 43,
+    "text": "6a/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 129,
+  "fields": {
+    "question": 43,
+    "text": "9a/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 130,
+  "fields": {
+    "question": 44,
+    "text": "10",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 131,
+  "fields": {
+    "question": 44,
+    "text": "20/y",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 132,
+  "fields": {
+    "question": 44,
+    "text": "5y/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 133,
+  "fields": {
+    "question": 45,
+    "text": "2x^2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 134,
+  "fields": {
+    "question": 45,
+    "text": "x^2/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 135,
+  "fields": {
+    "question": 45,
+    "text": "x^3/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 136,
+  "fields": {
+    "question": 46,
+    "text": "2/x",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 137,
+  "fields": {
+    "question": 46,
+    "text": "1/x^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 138,
+  "fields": {
+    "question": 46,
+    "text": "2x",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 139,
+  "fields": {
+    "question": 47,
+    "text": "0",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 140,
+  "fields": {
+    "question": 47,
+    "text": "1/x",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 141,
+  "fields": {
+    "question": 47,
+    "text": "2/x",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 142,
+  "fields": {
+    "question": 48,
+    "text": "5/x",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 143,
+  "fields": {
+    "question": 48,
+    "text": "6/x",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 144,
+  "fields": {
+    "question": 48,
+    "text": "5x",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 145,
+  "fields": {
+    "question": 49,
+    "text": "2/y",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 146,
+  "fields": {
+    "question": 49,
+    "text": "2y",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 147,
+  "fields": {
+    "question": 49,
+    "text": "1/y^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 148,
+  "fields": {
+    "question": 50,
+    "text": "(x + y)/xy",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 149,
+  "fields": {
+    "question": 50,
+    "text": "1/xy",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 150,
+  "fields": {
+    "question": 50,
+    "text": "(x - y)/xy",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 151,
+  "fields": {
+    "question": 51,
+    "text": "x^5",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 152,
+  "fields": {
+    "question": 51,
+    "text": "x^6",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 153,
+  "fields": {
+    "question": 51,
+    "text": "2x^5",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 154,
+  "fields": {
+    "question": 52,
+    "text": "x^4",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 155,
+  "fields": {
+    "question": 52,
+    "text": "x^3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 156,
+  "fields": {
+    "question": 52,
+    "text": "x^8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 157,
+  "fields": {
+    "question": 53,
+    "text": "x^6",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 158,
+  "fields": {
+    "question": 53,
+    "text": "x^5",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 159,
+  "fields": {
+    "question": 53,
+    "text": "x^8",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 160,
+  "fields": {
+    "question": 54,
+    "text": "x",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 161,
+  "fields": {
+    "question": 54,
+    "text": "x^(1/4)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 162,
+  "fields": {
+    "question": 54,
+    "text": "2x^(1/2)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 163,
+  "fields": {
+    "question": 55,
+    "text": "x",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 164,
+  "fields": {
+    "question": 55,
+    "text": "x^2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 165,
+  "fields": {
+    "question": 55,
+    "text": "x^(1/2)",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 166,
+  "fields": {
+    "question": 56,
+    "text": "3/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 167,
+  "fields": {
+    "question": 56,
+    "text": "2/3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 168,
+  "fields": {
+    "question": 56,
+    "text": "1/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 169,
+  "fields": {
+    "question": 57,
+    "text": "2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 170,
+  "fields": {
+    "question": 57,
+    "text": "1",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 171,
+  "fields": {
+    "question": 57,
+    "text": "3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 172,
+  "fields": {
+    "question": 58,
+    "text": "2/3",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 173,
+  "fields": {
+    "question": 58,
+    "text": "1/3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 174,
+  "fields": {
+    "question": 58,
+    "text": "2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 175,
+  "fields": {
+    "question": 59,
+    "text": "1/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 176,
+  "fields": {
+    "question": 59,
+    "text": "1/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 177,
+  "fields": {
+    "question": 59,
+    "text": "1",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 178,
+  "fields": {
+    "question": 60,
+    "text": "1",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 179,
+  "fields": {
+    "question": 60,
+    "text": "2/3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 180,
+  "fields": {
+    "question": 60,
+    "text": "3/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 181,
+  "fields": {
+    "question": 61,
+    "text": "4",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 182,
+  "fields": {
+    "question": 61,
+    "text": "тИЪ16",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 183,
+  "fields": {
+    "question": 61,
+    "text": "2тИЪ10",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 184,
+  "fields": {
+    "question": 62,
+    "text": "3",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 185,
+  "fields": {
+    "question": 62,
+    "text": "9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 186,
+  "fields": {
+    "question": 62,
+    "text": "тИЪ9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 187,
+  "fields": {
+    "question": 63,
+    "text": "2тИЪ5",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 188,
+  "fields": {
+    "question": 63,
+    "text": "тИЪ10",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 189,
+  "fields": {
+    "question": 63,
+    "text": "5тИЪ2",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 190,
+  "fields": {
+    "question": 64,
+    "text": "тИЪ3",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 191,
+  "fields": {
+    "question": 64,
+    "text": "тИЪ9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 192,
+  "fields": {
+    "question": 64,
+    "text": "2тИЪ3",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 193,
+  "fields": {
+    "question": 65,
+    "text": "3тИЪ3",
+    "is_correct": true
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 194,
+  "fields": {
+    "question": 65,
+    "text": "тИЪ9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.choice",
+  "pk": 195,
+  "fields": {
+    "question": 65,
+    "text": "9",
+    "is_correct": false
+  }
+},
+{
+  "model": "lectures.quizattempt",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "test2"
+    ],
+    "quiz": 3,
+    "score": 1,
+    "completed_at": "2026-05-08T14:59:01.343Z"
+  }
+},
+{
+  "model": "lectures.quizattempt",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "test2"
+    ],
+    "quiz": 2,
+    "score": 2,
+    "completed_at": "2026-06-02T11:14:22.599Z"
+  }
+},
+{
+  "model": "lectures.note",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "test2"
+    ],
+    "video": 2,
+    "content": "vfvfvfvfv",
+    "created_at": "2026-06-02T11:13:40.881Z"
+  }
+}
+]
