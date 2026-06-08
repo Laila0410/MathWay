@@ -4,7 +4,7 @@ import { tap } from 'rxjs/operators';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private readonly API_URL = 'http://localhost:8000/api/auth';
+  private readonly API_URL = 'https://mathway-backend.onrender.com/api/auth';
 
   token = signal<string | null>(this.getValidToken());
   isLoggedIn = signal<boolean>(!!this.getValidToken());

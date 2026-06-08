@@ -8,7 +8,7 @@ import { IQuiz, IQuizSubmission, IQuizResult } from '../models';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
-  private readonly API_URL = 'http://localhost:8000/api';
+  private readonly API_URL = 'https://mathway-backend.onrender.com/api';
 
   constructor(private http: HttpClient) {}
 
